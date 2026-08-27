@@ -1,0 +1,23 @@
+{
+  "id": "./",
+  "name": "ฟามCENT — สมุดบันทึกเทรดทอง",
+  "short_name": "ฟามCENT",
+  "description": "ติดตามกำไร XAUUSDc ใน USC พร้อมแปลงเป็น USD และเงินบาท",
+  "lang": "th",
+  "dir": "ltr",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#f5f5f7",
+  "theme_color": "#7058ef",
+  "categories": ["finance", "productivity"],
+  "icons": [
+    { "src": "./app-icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable" },
+    { "src": "./app-icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ],
+  "shortcuts": [
+    { "name": "เพิ่มกำไรวันนี้", "short_name": "เพิ่มกำไร", "url": "./?action=trade" },
+    { "name": "ดูรายการทั้งหมด", "short_name": "รายการ", "url": "./?section=records" }
+  ]
+}

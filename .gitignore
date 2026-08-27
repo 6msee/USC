@@ -1,0 +1,15 @@
+node_modules/
+dist/
+github-dist/
+.next/
+.wrangler/
+.vinext/
+*.tsbuildinfo
+.env
+.env.*
+!.env.example
+*.log
+site-package.zip
+_backups/
+*_backup_*
+*.bak
